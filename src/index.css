@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@600&display=swap');
+
+body{
+  margin:0;
+  padding: 0;
+  background: #D06224;
+}
+h1{
+  font-size: 2rem;
+  text-align: center;
+  color: #090910;
+  font-family: 'Montagu Slab', serif;
+}
+.container{
+  max-height: auto;
+  width: 1600px;
+  margin: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Box{
+  position: relative;
+  left: 500px;
+  /* right: 50px; */
+  background: #fff;
+  /* height: 500px; */
+  width: 25%;
+  margin: 20px 40px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 4px 10px 10px #090910;
+  align-items: center;
+}
+ .Box h3{
+  text-align: center;
+  font-family: 'Montagu Slab', serif;
+}
+img{
+  height: 200px;
+  width:200px;
+}
